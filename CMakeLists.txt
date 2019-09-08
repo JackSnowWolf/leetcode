@@ -4,8 +4,8 @@
  set(CMAKE_CXX_STANDARD 11)
 
  add_executable(Two_Sum algorithmsCpp/001_Two_Sum/test.cpp)
- #add_executable(Add_Two_Numbers 002.Add_Two_Numbers/test.cpp)
- #add_executable(Longest_Substring_Without_Repeating_Characters 003.Longest_Substring_Without_Repeating_Characters/test.cpp)
+ add_executable(Add_Two_Numbers algorithmsCpp/002_Add_Two_Numbers/test.cpp)
+ add_executable(Longest_Substring_Without_Repeating_Characters 003_Longest_Substring_Without_Repeating_Characters/test.cpp)
  #add_executable(Median_of_Two_Sorted_Arrays 004.Median_of_Two_Sorted_Arrays/test.cpp)
  #add_executable(Longest_Palindromic_Substring 005.Longest_Palindromic_Substring/test.cpp)
  #add_executable(ZigZag_Conversion 006.ZigZag_Conversion/test.cpp)

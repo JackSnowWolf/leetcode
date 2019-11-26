@@ -19,3 +19,11 @@ class Solution:
                         ans = max(ans, x * x + y * y)
 
         return ans
+
+
+if __name__ == '__main__':
+    solution = Solution()
+    commands = [-2, -1, 80]
+    obstacles = []
+    result = solution.robotSim(commands, obstacles)
+    print(result)

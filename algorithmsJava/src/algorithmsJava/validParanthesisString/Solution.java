@@ -1,4 +1,4 @@
-package validParanthesisString;
+package algorithmsJava.validParanthesisString;
 
 public class Solution {
 

@@ -60,14 +60,6 @@ class Solution {
     return word.substring(0, i + 1) + (N - i - 2) + word.charAt(N - 1);
   }
 
-  public int longestCommonPrefix(String word1, String word2) {
-    int i = 0;
-    while (i < word1.length() && i < word2.length()
-        && word1.charAt(i) == word2.charAt(i)) {
-      i++;
-    }
-    return i;
-  }
 }
 
 class TrieNode {

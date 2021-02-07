@@ -59,7 +59,6 @@ class Solution {
         while (i <= j && i < s.length() && !target.contains(s.charAt(i))) {
           i++;
         }
-
       }
     }
     return s.substring(start, end);
